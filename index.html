@@ -9,6 +9,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <style>
+  .navbar-custom {
+    background-color: black;
+  }
+  /* change the brand and text color */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+	color: white;
+  }
+  /* change the link color */
+  .navbar-custom .navbar-nav .nav-link {
+	color: white;
+  }
+  /* change the color of active or hovered links */
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link {
+	color: white;
+	text-decoration: underline;
+  }
   .profile-pic {
 	float: left;
 	margin: 0 20px 0 0;
@@ -16,7 +34,7 @@
   </style>  
 </head>
   <body class="d-flex flex-column h-100">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-custom">
 	  <div class="container-fluid">
 		<a class="navbar-brand" href="#">Paul Goddard</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
