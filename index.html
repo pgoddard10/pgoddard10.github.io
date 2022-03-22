@@ -27,6 +27,13 @@
 	color: white;
 	text-decoration: underline;
   }
+  .navbar-toggler {
+	border-color: white;
+	border-width: 2px;
+  }
+  .navbar-toggler-icon {
+	color: white;
+  }
   .profile-pic {
 	float: left;
 	margin: 0 20px 0 0;
@@ -37,8 +44,8 @@
     <nav class="navbar navbar-expand-lg navbar-custom">
 	  <div class="container-fluid">
 		<a class="navbar-brand" href="#">Paul Goddard</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
+		<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"><i class="fas fa-bars" style="font-size:28px;"></i></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -83,10 +90,10 @@
 	
 	<!-- Begin page content -->
 	<main class="flex-shrink-0">
-	  <div class="row">
-	  &nbsp;
-	  </div>
 	  <div class="container">
+		  <div class="row">
+		  &nbsp;
+		  </div>
 		  <div class="row">
 			<div class="col">
 				<img src="https://pbs.twimg.com/profile_images/1478666256307863556/2v7CDhZ8_400x400.jpg" class="profile-pic rounded-circle" alt="Photo of Paul">
