@@ -4,100 +4,94 @@
   <head>
     <title>API Demo - Citation.js</title>
     <meta charset="UTF-8">
+	<style>
+	.bibtex_options fieldset {
+		display: inline-block;
+	}
+	</style>
   </head>
   <body>
-    <h1>Citation.js - demo</h1>
-    <h2>Output:</h2>
-    <fieldset>
-      <legend>HTML or plain text:</legend>
-      <select class="type">
-	<option value="html">HTML</option>
-        <option value="json">JSON</option>
-	<option value="string">Plain text</option>
-      </select>
-    </fieldset>
-    <fieldset>
-      <legend>Style:</legend>
-      <select class="style">
-	<option value="citation-apa">APA</option>
-	<option value="citation-vancouver">Vancouver</option>
-	<option value="citation-harvard1">Harvard</option>
-	<option value="csl">CSL-JSON</option>
-	<option value="bibtex">BibTeX</option>
-        <option value="bibtxt">Bib.TXT</option>
-      </select>
-    </fieldset>
-    <fieldset>
-      <legend>Language:</legend>
-      <select class="lang">
-	<option value="en-US">English</option>
-	<option value="fr-FR">French</option>
-	<option value="es-ES">Spanish</option>
-	<option value="de-DE">German</option>
-	<option value="nl-NL">Dutch</option>
-      </select>
-    </fieldset>
-    <h4>From BibTeX input:</h4>
+  
+	<div class="bibtex_options">
+		<fieldset>
+		  <legend>Style:</legend>
+		  <select class="style">
+		    <option value="citation-apa">APA</option>
+		    <option value="citation-vancouver">Vancouver</option>
+		    <option value="citation-harvard1">Harvard</option>
+		    <option value="csl">CSL-JSON</option>
+		    <option value="bibtex">BibTeX</option>
+			<option value="bibtxt">Bib.TXT</option>
+		  </select>
+		</fieldset>
+		<fieldset>
+		  <legend>HTML or plain text:</legend>
+		  <select class="type">
+		    <option value="html">HTML</option>
+		    <option value="string">Plain text</option>
+		  </select>
+		</fieldset>
+	</div>
+	<p></p>
     <div id="bibx-out" data-type="bib" class="out"></div>
     
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://cdn.rawgit.com/larsgw/citation.js/archive/citation.js/citation-0.4.0-9.js"></script>
     <script type="text/javascript" src="https://citation.js.org/static/js/highlight.js"></script>
-    <script class="code" type="text/javascript">
-var Cite = require('citation-js')
+    <script type="text/javascript">	
+	var Cite = require('citation-js')
 
-// Set variables
-var cite = new Cite()
-var opt = {
-  format: 'string'
-}
+	// Set variables
+	var cite = new Cite()
+	var opt = {
+	  format: 'string'
+	}
 
-// Make shorter ref to function
-var parseAsync = Cite.parse.input.async.chain
+	// Make shorter ref to function
+	var parseAsync = Cite.parse.input.async.chain
 
-// Make a factory for callback
-var callbackFactory = function (out) {
-  return function (data) {
-    out.html(cite.set(data).get(opt))
-  }
-}
+	// Make a factory for callback
+	var callbackFactory = function (out) {
+	  return function (data) {
+		out.html(cite.set(data).get(opt))
+	  }
+	}
 
-$(function(){
-  // jQuery elements  
-  var $bibx_in = $('#bibx-in'),
-      $type = $('select.type'),
-      $styl = $('select.style'),
-      $lang = $('select.lang')
+	$(function(){
+	  // jQuery elements  
+	  var $bibx_in = " ",
+		  $type = $('select.type'),
+		  $styl = $('select.style'),
+		  $lang = $('select.lang')
+	            
+	  $.get('publications.bib', function(data) {
+		$bibx_in = data
+	  }, 'text');
+	  	  
+	  // Callbacks
+	  var bibxCb = callbackFactory($('#bibx-out'))
 
-  $.get('publications.bib', function(data) {
-    $bib_in = data;
-  }, 'text');
-  
-  // Callbacks
-  var jsonCb = callbackFactory($('#json-out')),
-      bibxCb = callbackFactory($('#bibx-out')),
-      wikiCb = callbackFactory($('#wiki-out')),
-      bibjCb = callbackFactory($('#bibj-out'))
+	  // Declare function to update the output
+	  function update() {
+		// Get user options
+		opt.type = $type.val()
+		opt.style = $styl.val()
 
-  // Declare function to update the output
-  function update() {
-    // Get user options
-    opt.type = $type.val()
-    opt.style = $styl.val()
-    opt.lang = $lang.val()
+		// Set data (explicit parsing only recommended for async) and set html element to get output
+		parseAsync($bibx_in).then(bibxCb)
+	  }
 
-    // Set data (explicit parsing only recommended for async) and set html element to get output
-    parseAsync($bibx_in.text()).then(bibxCb)
-  }
+	  // Make output update when input is defocussed...
+	  $('.in').on('blur', update)
+	  // ... or a select tag has changed
+	  $('select').on('change', update)
 
-  // Make output update when input is defocussed...
-  $('.in').on('blur', update)
-  // ... or a select tag has changed
-  $('select').on('change', update)
-
-  // Trigger update
-  update()
-})
+	  // initial run of the code
+	  $(window).on('load',update)
+	  
+	  // Trigger update
+	  update()
+	})
     </script>
   </body>
 </html>
