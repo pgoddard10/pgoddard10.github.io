@@ -38,6 +38,10 @@
   .icons a {
 	color: #0275d8;
   }
+  .btn {
+	background-color: #0275d8;
+	color: #fff;
+  }
   .navbar-custom {
     background-color: #02549D;
   }
@@ -76,10 +80,13 @@
   #title h2{
 	font-size: 1.2em;
   }
-  .koffee {
+  .coffee {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
+  }
+  .coffee a:hover {
+	color: #fff;
   }
   .footer {
 	color: #000;
@@ -96,6 +103,23 @@
 	  width: 35%;
     }
   }
+  
+@-webkit-keyframes wiggle {
+   0% { -webkit-transform: translate(2px, 0px); }
+   20% { -webkit-transform: translate(-2px, 0px); }
+   40% { -webkit-transform: translate(2px, 0px); }
+   60% { -webkit-transform: translate(-2px, 0px); }
+   80% { -webkit-transform: translate(2px, 0px); }
+   100% { -webkit-transform: translate(0px, 0px); }
+}
+
+.coffee {
+   -webkit-animation-name: wiggle;
+   -webkit-animation-duration: 500ms;
+   -webkit-transform-origin: 50% 50%;
+   -webkit-animation-delay: 15s;
+}
+
   </style>  
 </head>
   <body class="d-flex flex-column h-100">
@@ -145,9 +169,6 @@
 	</nav>
 	
 	<!-- Begin page content -->
-	<div class="koffee">
-		<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#0275d8', 'N4N14FPRO');kofiwidget2.draw();</script> 
-	</div>
 	<main class="flex-shrink-0">
 	  <div class="container">
 		  <div class="row">
@@ -220,17 +241,20 @@
 				<p>I support and lead subjects like computational thinking, software engineering/development skills, DevOps and service management. I also support drop-in sessions for all students on any topics, as well as our asynchronous online forums.</p>
 			  </div>
 		  </div>
-		  
-		  
+
 	  </div>
 	</main>
+	<!-- put back when COVID is less risky
+	<div class="coffee">
+		<a tabindex="0" class="btn" role="button" data-bs-toggle="popover" data-bs-placement="top" title="☕ Coffee?" data-bs-html="true" data-bs-content="I always welcome an opportunity to drink coffee, especially if I have someone to talk to whilst drinking it.<br />Please contact me to arrange something in-person or feel free to buy me a coffee via <a href='https://ko-fi.com/pgoddard10' target='_blank'>ko-fi</a>">☕ Coffee?</a>
+	</div>
+	-->
 
 	<footer class="footer mt-auto py-3 bg-secondary bg-opacity-10">
 	  <div class="container">
 		&copy; 2021 - <span id="year">2022</span> Paul Goddard
 	  </div>
 	</footer>
-
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -239,8 +263,12 @@
 	<script>
 		/* Set the copyright notice to include this year */
 		document.getElementById("year").innerHTML = new Date().getFullYear();
+		
+		/* enable pop-overs */
+		var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+		var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+		  return new bootstrap.Popover(popoverTriggerEl)
+		})
 	</script>
-
-
   </body>
 </html>
