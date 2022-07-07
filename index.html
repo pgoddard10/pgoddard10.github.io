@@ -104,20 +104,50 @@
     }
   }
   
-@-webkit-keyframes wiggle {
-   0% { -webkit-transform: translate(2px, 0px); }
-   20% { -webkit-transform: translate(-2px, 0px); }
-   40% { -webkit-transform: translate(2px, 0px); }
-   60% { -webkit-transform: translate(-2px, 0px); }
-   80% { -webkit-transform: translate(2px, 0px); }
-   100% { -webkit-transform: translate(0px, 0px); }
+@keyframes wiggle {
+   0% { transform: translate(2px, 0px); }
+   20% { transform: translate(-2px, 0px); }
+   40% { transform: translate(2px, 0px); }
+   60% { transform: translate(-2px, 0px); }
+   80% { transform: translate(2px, 0px); }
+   100% { transform: translate(0px, 0px); }
 }
 
-.coffee {
-   -webkit-animation-name: wiggle;
-   -webkit-animation-duration: 500ms;
-   -webkit-transform-origin: 50% 50%;
-   -webkit-animation-delay: 15s;
+.wiggle-3 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 3s;
+}
+.wiggle-4 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 4s;
+}
+.wiggle-5 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 5s;
+}
+.wiggle-6 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 6s;
+}
+.wiggle-7 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 7s;
+}
+.wiggle-15 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 15s;
 }
 
   </style>  
@@ -184,11 +214,11 @@
 					<h1>Paul Goddard</h1><h2>, BSc (Hons), AFHEA</h2>
 				</div>
 				<nav class="icons" aria-label="Social Media Links">
-					<a href="https://twitter.com/pgoddard10" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl" alt="Twitter"></i></a>&nbsp;&nbsp;
-					<a href="https://www.linkedin.com/in/pgoddard10/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-xl" alt="LinkedIn"></i></a>&nbsp;&nbsp;
-					<a href="https://scholar.google.com/citations?hl=en&user=g0TB4x8AAAAJ" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap fa-xl" alt="Google Scholar"></i></a>&nbsp;&nbsp;
-					<a href="https://orcid.org/0000-0002-1707-5573" target="_blank" aria-label="Orchid"><i class="fa-brands fa-orcid fa-xl" alt="Orchid"></i></a>&nbsp;&nbsp;
-					<a href="https://www.researchgate.net/profile/Paul-Goddard-5/" target="_blank" aria-label="Research Gate"><i class="fa-brands fa-researchgate fa-xl" alt="Research Gate"></i></a>&nbsp;&nbsp;
+					<a href="https://twitter.com/pgoddard10" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl wiggle-3" alt="Twitter"></i></a>&nbsp;&nbsp;
+					<a href="https://www.linkedin.com/in/pgoddard10/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-xl wiggle-4" alt="LinkedIn"></i></a>&nbsp;&nbsp;
+					<a href="https://scholar.google.com/citations?hl=en&user=g0TB4x8AAAAJ" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap fa-xl wiggle-5" alt="Google Scholar"></i></a>&nbsp;&nbsp;
+					<a href="https://orcid.org/0000-0002-1707-5573" target="_blank" aria-label="Orchid"><i class="fa-brands fa-orcid fa-xl wiggle-6" alt="Orchid"></i></a>&nbsp;&nbsp;
+					<a href="https://www.researchgate.net/profile/Paul-Goddard-5/" target="_blank" aria-label="Research Gate"><i class="fa-brands fa-researchgate fa-xl wiggle-7" alt="Research Gate"></i></a>&nbsp;&nbsp;
 				</nav>
 				<br />
 				<p>I am a part time Teaching Associate for <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a> which includes work at the <a href="https://www.cardiff.ac.uk/software-academy" target="_blank">National Software Academy</a>. I support modules that complement my industry experience including Software Engineering, DevOps and Software Development Skills among others.</p>
@@ -244,8 +274,8 @@
 
 	  </div>
 	</main>
-	<!-- put back when COVID is less risky
-	<div class="coffee">
+	<!-- put back when COVID is less risky 
+	<div class="coffee wiggle-15">
 		<a tabindex="0" class="btn" role="button" data-bs-toggle="popover" data-bs-placement="top" title="☕ Coffee?" data-bs-html="true" data-bs-content="I always welcome an opportunity to drink coffee, especially if I have someone to talk to whilst drinking it.<br />Please contact me to arrange something in-person or feel free to buy me a coffee via <a href='https://ko-fi.com/pgoddard10' target='_blank'>ko-fi</a>">☕ Coffee?</a>
 	</div>
 	-->
