@@ -113,6 +113,18 @@
    100% { transform: translate(0px, 0px); }
 }
 
+.wiggle-1 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 1s;
+}
+.wiggle-2 {
+   animation-name: wiggle;
+   animation-duration: 500ms;
+   transform-origin: 50% 50%;
+   animation-delay: 2s;
+}
 .wiggle-3 {
    animation-name: wiggle;
    animation-duration: 500ms;
@@ -155,7 +167,6 @@
   <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-custom">
 	  <div class="container-fluid">
-		<a class="navbar-brand" href="#">Paul Goddard</a>
 		<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"><i class="fas fa-bars" style="font-size:28px;"></i></span>
 		</button>
@@ -214,11 +225,11 @@
 					<h1>Paul Goddard</h1><h2>, BSc (Hons), AFHEA</h2>
 				</div>
 				<nav class="icons" aria-label="Social Media Links">
-					<a href="https://twitter.com/pgoddard10" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl wiggle-3" alt="Twitter"></i></a>&nbsp;&nbsp;
-					<a href="https://www.linkedin.com/in/pgoddard10/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-xl wiggle-4" alt="LinkedIn"></i></a>&nbsp;&nbsp;
-					<a href="https://scholar.google.com/citations?hl=en&user=g0TB4x8AAAAJ" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap fa-xl wiggle-5" alt="Google Scholar"></i></a>&nbsp;&nbsp;
-					<a href="https://orcid.org/0000-0002-1707-5573" target="_blank" aria-label="Orchid"><i class="fa-brands fa-orcid fa-xl wiggle-6" alt="Orchid"></i></a>&nbsp;&nbsp;
-					<a href="https://www.researchgate.net/profile/Paul-Goddard-5/" target="_blank" aria-label="Research Gate"><i class="fa-brands fa-researchgate fa-xl wiggle-7" alt="Research Gate"></i></a>&nbsp;&nbsp;
+					<a href="https://twitter.com/pgoddard10" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl wiggle-1" alt="Twitter" title="Twitter"></i></a>&nbsp;&nbsp;
+					<a href="https://www.linkedin.com/in/pgoddard10/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-xl wiggle-2" alt="LinkedIn" title="LinkedIn"></i></a>&nbsp;&nbsp;
+					<a href="https://scholar.google.com/citations?hl=en&user=g0TB4x8AAAAJ" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap fa-xl wiggle-3" alt="Google Scholar" title="Google Scholar"></i></a>&nbsp;&nbsp;
+					<a href="https://orcid.org/0000-0002-1707-5573" target="_blank" aria-label="Orchid"><i class="fa-brands fa-orcid fa-xl wiggle-4" alt="Orchid" title="Orchid"></i></a>&nbsp;&nbsp;
+					<a href="https://www.researchgate.net/profile/Paul-Goddard-5/" target="_blank" aria-label="Research Gate"><i class="fa-brands fa-researchgate fa-xl wiggle-5" alt="Research Gate" title="Research Gate"></i></a>&nbsp;&nbsp;
 				</nav>
 				<br />
 				<p>I am a part time Teaching Associate for <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a> which includes work at the <a href="https://www.cardiff.ac.uk/software-academy" target="_blank">National Software Academy</a>. I support modules that complement my industry experience including Software Engineering, DevOps and Software Development Skills among others.</p>
@@ -274,11 +285,14 @@
 
 	  </div>
 	</main>
-	<!-- put back when COVID is less risky 
 	<div class="coffee wiggle-15">
-		<a tabindex="0" class="btn" role="button" data-bs-toggle="popover" data-bs-placement="top" title="☕ Coffee?" data-bs-html="true" data-bs-content="I always welcome an opportunity to drink coffee, especially if I have someone to talk to whilst drinking it.<br />Please contact me to arrange something in-person or feel free to buy me a coffee via <a href='https://ko-fi.com/pgoddard10' target='_blank'>ko-fi</a>">☕ Coffee?</a>
+		<a tabindex="0" class="btn" role="button" 
+		data-bs-toggle="popover" 
+		data-bs-placement="top" 
+		title="☕ Coffee?" 
+		data-bs-html="true" 
+		data-bs-content="I always welcome an opportunity to drink coffee, especially if I have someone to talk to whilst drinking it.<br />Please contact me to arrange something or feel free to buy me a coffee via <a href='https://ko-fi.com/pgoddard10' target='_blank'>ko-fi</a>">☕ Coffee?</a>
 	</div>
-	-->
 
 	<footer class="footer mt-auto py-3 bg-secondary bg-opacity-10">
 	  <div class="container">
