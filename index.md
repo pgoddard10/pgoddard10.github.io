@@ -1,0 +1,324 @@
+ {% include navigation.html %}
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paul Goddard - Professional profile of Paul Goddard, outlining his research and teaching experience.</title>
+  <meta property="og:title" content="Paul Goddard" />
+  <meta property="og:description" content="Professional profile of Paul Goddard, outlining his research and teaching experience." /> 
+  <meta name="description" content="Professional profile of Paul Goddard, outlining his research and teaching experience." />
+  
+  <meta name="author" content="Paul Goddard" />
+  <meta name="copyright" content="Paul Goddard" />
+  
+  <meta name="twitter:site" content="@pgoddard10" />
+  <meta name="twitter:creator" content="@pgoddard10" />
+  
+  <meta property="og:url" content="https://pgoddard10.github.io/" />
+    
+  <meta property="og:image" content="https://pgoddard10.github.io/images/paul_goddard.jpg" />
+  <meta name="twitter:image" content="https://pgoddard10.github.io/images/paul_goddard.jpg" />
+  <meta property="og:image:alt" content="A head-and-shoulders shot of Paul facing the camera with a smile. He is wearing a burgundy jumper and the background is blurred." />
+  <meta name="twitter:image:alt" content="A head-and-shoulders shot of Paul facing the camera with a smile. He is wearing a burgundy jumper and the background is blurred." />
+  
+   <meta name="twitter:card" content="summary" />
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+  html {
+    font-size: 1.1rem;
+  }
+  a {
+	color: #02549D;
+  }
+  a:hover {
+	text-decoration: none;
+  }
+  .icons {
+    font-size: 1.0rem;
+  }
+  .icons a {
+	color: #0275d8;
+  }
+  .sticky {
+    position: sticky;
+	top: 0;
+	background-color: #fff;
+  }
+  .btn {
+	background-color: #0275d8;
+	color: #fff;
+  }
+  .navbar-custom {
+    background-color: #02549D;
+  }
+  /* change the brand and text color */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+	color: white;
+  }
+  /* change the link color */
+  .navbar-custom .navbar-nav .nav-link {
+	color: white;
+  }
+  /* change the color of active or hovered links */
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link {
+	color: white;
+	text-decoration: underline;
+  }
+  .navbar-toggler {
+	border-color: white;
+	border-width: 2px;
+  }
+  .navbar-toggler-icon {
+	color: white;
+  }
+  .profile-pic {
+	float: left;
+	margin: 0 20px 0 0;
+  }
+  .profile-pic-container img{
+	max-width: 225px;
+  }
+  #title h1, #title h2{
+	display: inline;
+  }
+  #title h2{
+	font-size: 1.2em;
+  }
+  .coffee {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+  }
+  .coffee a:hover {
+	color: #fff;
+  }
+  .footer {
+	color: #000;
+  }
+  /* For width 768px and larger: */
+  @media only screen and (max-width: 768px) {
+	.publications img {
+		max-width: 70%;
+	}
+  }
+  /* For width 500px and larger: */
+  @media only screen and (max-width: 500px) {
+    .profile-pic {
+	  width: 35%;
+    }
+    .coffee button {
+      font-size: 0.8em;
+    }
+  }
+  </style>  
+</head>
+  <body id="top" class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+	  <div class="container-fluid">
+		<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"><i class="fas fa-bars" style="font-size:28px;"></i></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col">
+					  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+						  <a class="nav-link" href="#research">Research</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#publications">Publications</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#teaching">Teaching</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#honours-and-awards">Honours and Awards</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="https://www.linkedin.com/in/pgoddard10/" target="_blank">Biography <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>
+						</li>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-AcProfiles" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Acadmic Profiles
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdown-AcProfiles">
+							<li><a class="dropdown-item" href="https://www.cardiff.ac.uk/people/view/2489531-goddard-paul" target="_blank"><i class="fa-solid fa-building-columns"></i> Cardiff University</a></li>
+							<li><a class="dropdown-item" href="https://scholar.google.com/citations?hl=en&user=g0TB4x8AAAAJ" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a></li>
+							<li><a class="dropdown-item" href="https://orcid.org/0000-0002-1707-5573" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a></li>
+							<li><a class="dropdown-item" href="https://www.researchgate.net/profile/Paul-Goddard-5/" target="_blank"><i class="fa-brands fa-researchgate"></i> Research Gate</a></li>
+						  </ul>
+						</li>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Socials" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Socials
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Socials">
+							<li><a class="dropdown-item" href="https://www.linkedin.com/in/pgoddard10/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+							<li><a class="dropdown-item" href="https://twitter.com/pgoddard10" target="_blank"><i class="fa-brands fa-x-twitter"></i> X</a></li>
+						  </ul>
+						</li>
+					  </ul>
+				  </div>
+			  </div>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+	
+	<!-- Begin page content -->
+	<main class="flex-shrink-0">
+	  <div class="container">
+		  <div class="row">
+		  &nbsp;
+		  </div>
+		  <div class="row">
+			<div class="col">
+				<div class="profile-pic-container">
+					<img src="images/paul_goddard.jpg" class="profile-pic rounded-circle" alt="A head-and-shoulders shot of Paul facing the camera with a smile. burgundy jumper and the background is blurred.">
+					<!-- Changing the profile picture? Remember to change the picture in the meta data too. -->
+				</div>
+				<div id="title">
+					<h1>Paul Goddard</h1><h2>, BSc (Hons), FHEA</h2>
+				</div>
+				<nav class="icons" aria-label="Social Media Links">
+					<a href="https://www.linkedin.com/in/pgoddard10/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-xl" alt="LinkedIn" title="LinkedIn"></i></a>&nbsp;&nbsp;
+					<a href="https://x.com/pgoddard10" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter fa-xl" alt="X" title="X"></i></a>&nbsp;&nbsp;
+					<a href="https://scholar.google.com/citations?hl=en&user=g0TB4x8AAAAJ" target="_blank" aria-label="Google Scholar"><i class="fa-solid fa-graduation-cap fa-xl" alt="Google Scholar" title="Google Scholar"></i></a>&nbsp;&nbsp;
+					<a href="https://orcid.org/0000-0002-1707-5573" target="_blank" aria-label="Orchid"><i class="fa-brands fa-orcid fa-xl" alt="Orchid" title="Orchid"></i></a>&nbsp;&nbsp;
+					<a href="https://www.researchgate.net/profile/Paul-Goddard-5/" target="_blank" aria-label="Research Gate"><i class="fa-brands fa-researchgate fa-xl" alt="Research Gate" title="Research Gate"></i></a>&nbsp;&nbsp;
+				</nav>
+				<br />
+				<p>
+				I am a HCI PhD Student and Teaching Associate in the <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a> at <a href="https://www.cardiff.ac.uk/" target="_blank">Cardiff University</a>.
+				My research focuses on visual accessibility for people with low vision, particularly in the context of art.
+				I am a Fellow of AdvanceHE (FHEA) and my teaching complements my decade of industry experience by focusing on software engineering, programming, and DevOps skills.
+				I was the inaugural Lead Teaching Associate for the School where I represented the team of 28 Teaching Associates at management meetings and student experience panels.
+				My efforts to promote collaboration and share best practices among the team were recognised with the Outstanding Contribution Award in 2023.
+				I was previously a research intern and student at <a href="https://www.uwe.ac.uk/" target="_blank">UWE, Bristol</a>, where I worked on developing low-cost audio tour systems for museums and multimodal interfaces to improve navigation for individuals with sight loss.
+				More information about my research and teaching can be found below, including links to my published works.
+				</p>
+			</div>
+		  </div>
+		  <div class="row">
+			  <div class="col">
+				<h2 id="research" class="sticky">Research</h2>
+				<p>Museums and art galleries play a crucial role in meeting our educational and social needs. However, people with visual impairments often feel excluded from visiting these places. due to various reasons such as lack of accessible mediums for viewing art and inadequately trained staff. Moreover, accessibility strategies and research for visual art mostly focus on non-visual interpretations, despite the fact that most people with visual impairments retain some residual vision. My PhD, supervised by <a href="https://profiles.cardiff.ac.uk/staff/verdezotodiasn" target="_blank">Dr Nervo Verdezoto Dias</a>, <a href="https://www.cardiff.ac.uk/people/view/118139-lai-yukun" target="_blank">Professor Yukun Lai</a>&nbsp;and <a href="https://www.cardiff.ac.uk/people/view/38250-margrain-tom" target="_blank">Professor Tom Margrain</a>, investigates how to improve the visual accessibility of visual art for people with low vision. My research has a HCI focus and uses mixed methods to explore this area of limited existing research.</p>
+				<p>Previous research covers working with tactile and audio interfaces for people with low vision at <a href="https://www.uwe.ac.uk/" target="_blank">University of the West of England</a> in collaboration with <a href="https://people.uwe.ac.uk/Person/BenedictGaster" target="_blank">Dr Benedict Gaster</a>, <a href="https://people.uwe.ac.uk/Person/CarinnaParraman" target="_blank">Professor Carinna Parraman</a>, and <a href="https://people.uwe.ac.uk/Person/FabioDAgnano" target="_blank">Fabio D'Agnano</a>.</p>
+			  </div>
+		  </div>
+		  <div class="row publications">
+			<h3 id="publications" class="sticky">Publications</h3>
+			<nav><p><a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a></p></nav>
+			<h4 id="2024">2024</h4>
+			
+			<div class="col-12 col-md-4 col-lg-3">
+				<img style="width: 100%;" src="images/early_codes_on_table.png" alt="Lots of small strips of paper, with a coloured square sticky note above each group of strips.]{Four sticky notes are used as theme headings as sub-headings for groups of codes printed on small strips of paper. The theme headings are 'Museums have rules to follow' (on a blue note) and 'Infrastructure' (on an orange note), which contains two subheadings of 'Lighting must be just right' and 'placement must be just right' (both are on yellow notes). Codes under 'Museums have rules to follow' are: needs help from person to understand museum permissions; sometimes allowed to touch but inconsistent; touching allowed; no photography rules; not allowed to get close to text description; societial pressures prevent getting close to art; unsure if touching is allowed or not; not allowed to get close to art; touching only when supervised. The codes under 'Lighting must be just right' are: lots of lighting needed; lighting is inconsistent in museum spaces; reflections prevent photos; lighting is too much for cameras to handle; lighting is too poor for camera to pick up; lighting doesn't matter; need good lighting to read the description; time to adjust to lighting; reflections on glass covers make art hard to see. Finally, the codes under 'placement must be just right' are: codes to trigger accessibility tools are small or inconsistently placed (Note that the 'or' is crossed through in this picture); art is too high on the wall; art is too low on the wall.">
+			</div>
+			<div class="col-12 col-md-8 col-lg-9">
+				<p>
+					Paul Goddard, Nervo Verdezoto, Tom H. Margrain, Yu-Kun Lai, and Parisa Eslambolchilar. 2024. Seeing Art Differently: Design Considerations to Improve Visual Art Engagement for People with Low Vision. In <i>Designing Interactive Systems Conference (DIS ’24), July 1–5, 2024, IT University of Copenhagen, Denmark.</i> ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3643834.3660675<br/>
+					<a href="https://doi.org/10.1145/3643834.3660675" target="_blank">pdf</a>
+				</p>
+			</div>
+			<p></p>		
+			
+			<h4 id="2021">2021</h4>
+			
+			<div class="col-12 col-md-4 col-lg-3">
+				<img style="width: 100%;" src="images/urban_lighthouses.png" alt="A cartoon showing a person with low vision touching a street map, which has a highlighted route plan.">
+			</div>
+			<div class="col-12 col-md-8 col-lg-9">
+				<p>
+					D'Agnano, F., Parraman, C., Goddard, P., and Roberton, N. 2021. Urban Lighthouses and a Tactile City - Bristol. In: <i>AMPS Proceedings Series 26.2. Environments by Design: Health, Wellbeing and Place</i>. Northumbria, UK. pp. 110-121.<br />
+					<a href="https://amps-research.com/wp-content/uploads/2022/08/Amps-Proceedings-Series-26.2.pdf" target="_blank">pdf</a>
+				</p>
+			</div>
+			<p></p>		
+			
+			<div class="col-12 col-md-4 col-lg-3">
+				<img style="width: 100%;" src="images/engaged_surface.jpg" alt="Close-up of a tactile print, showing buildings and a park.">
+			</div>
+			<div class="col-12 col-md-8 col-lg-9">
+				<p>
+					Parraman, C., Mandrille, C., D'Agnano, F., Roberton, N., and Goddard, P. 2021. The Engaged Surface - Prints for Visual Sensory Perception. In: <i>IMPACT 11</i>. Hong Kong<br />
+					<a href="https://www.impact11.hk/application/en/submission/submission-wywpqu30/" target="_blank">online</a>
+				</p>
+			</div>
+			<p></p>
+			<h4 id="2020">2020</h4>
+			<div class="col-12 col-md-4 col-lg-3">
+				<img style="width: 100%;" src="images/playshell.png" alt="Playshell in use outside. A hand holding a clear box is about to tap it onto a printed sign about badgers.">
+			</div>
+			<div class="col-12 col-md-8 col-lg-9">
+				<p>
+					Goddard, P. and Gaster, B.R. 2020. PlayShell: a low-cost, fun audio experience for heritage centres. In: <i>Proceedings of the 15th International Conference on Audio Mostly</i>. Graz Austria: ACM, pp. 237–240. DOI: <a href="https://dl.acm.org/doi/10.1145/3411109.3411132" target="_blank">10.1145/3411109.3411132</a><br />
+					<a href="https://uwe-repository.worktribe.com/preview/6778351/AM_2020_Playful_Audio%282%29.pdf" target="_blank">pdf</a> | <a href="https://player.vimeo.com/video/455441755?color=cc5a5a" target="_blank">video</a>
+				</p>
+			</div>
+		  </div>
+		  <div class="row">
+			  <p></p>
+			  <div class="col">
+				<h2 id="teaching" class="sticky">Teaching</h2>
+				<p>I deliver engaging and effective courses at Cardiff University's <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a> by designing and planning learning activities and programs, delivering engaging and supportive teaching, creating supportive learning environments, and continuously developing through professional growth and scholarly activities.</p>
+				<p>As the inaugural Lead Teaching Associate (Jan 2022 – July 2024), I represented our team at the School Board and School Education and Student Experience Committee. I collaborated with School management, our Professional Services team, and TAs on teaching support organisation, internal teaching development, and fostering a culture of collaboration and inclusivity.</p>
+				<p>Holding <a href="https://www.advance-he.ac.uk/fellowship/fellowship" target="_blank">Fellow (FHEA)</a> status, I provide high-quality education and support. Collaboration with colleagues and engaging in reflective practice is pivotal in this journey. We create a vibrant educational community that thrives on shared knowledge and innovative practices.</p>
+			  </div>
+		  </div>
+
+		  <div class="row">
+			  <p></p>
+			  <div class="col">
+				<h2 id="honours-and-awards" class="sticky">Honours and Awards</h2>
+				<ul>
+					<li>Nominated for 'Most Outstanding Learning Experience' in the Enriching Student Life Awards March 2024</li>
+					<li>Cardiff University Outstanding Contribution Award, October 2023</li>
+					<li>School of Computer Science and Informatics January 2023 PGR Conference - First Place (Student Scoring)</li>
+					<li>School of Computer Science and Informatics January 2023 PGR Conference - Second Place (Committee Scoring)</li>
+					<li>Bristol Futures Award 2019 - UWE</li>
+					<li>The Dean's Award for Academic Excellence - UWE - 2019</li>
+					<li>The Dean's Award for Academic Excellence - UWE - 2018</li>
+				</ul>
+			  </div>
+		  </div>
+		  
+	  </div>
+	</main>
+	
+	<footer class="footer mt-auto py-3 bg-secondary bg-opacity-10">
+	  <div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-8">
+				<p>&copy; 2021 - <span id="year">2024</span> Paul Goddard</p>
+			</div>
+			<div class="col-12 col-sm-4">
+				<p id="to-top" class="text-sm-end"><a href="#top" class="btn btn-primary">Back to Top</a></p>
+			</div>
+		</div>
+		<div class="row">
+			&nbsp;
+		</div>
+		<div class="row">
+			&nbsp;
+		</div>
+	  </div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/larsgw/citation.js/archive/citation.js/citation-0.4.0-9.js"></script>
+	<script>
+		/* Set the copyright notice to include this year */
+		document.getElementById("year").innerHTML = new Date().getFullYear();
+	</script>
+  </body>
+</html>
