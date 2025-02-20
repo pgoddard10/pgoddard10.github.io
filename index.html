@@ -35,6 +35,12 @@
   a:hover {
 	text-decoration: none;
   }
+  h3 {
+    text-size: 0.9em;
+  }
+  h2, h3, h4 {
+    margin-top: 10px;
+  }
   .icons {
     font-size: 1.0rem;
   }
@@ -88,14 +94,6 @@
   #title h2{
 	font-size: 1.2em;
   }
-  .coffee {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-  }
-  .coffee a:hover {
-	color: #fff;
-  }
   .footer {
 	color: #000;
   }
@@ -109,9 +107,6 @@
   @media only screen and (max-width: 500px) {
     .profile-pic {
 	  width: 35%;
-    }
-    .coffee button {
-      font-size: 0.8em;
     }
   }
   </style>  
@@ -127,14 +122,26 @@
 			  <div class="row">
 				  <div class="col">
 					  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-						  <a class="nav-link" href="#research">Research</a>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Research
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Research">
+							<li><a class="dropdown-item" href="#research">Research Overview</a></li>
+							<li><a class="dropdown-item" href="#publications">Publications</a></li>
+							<li><a class="dropdown-item" href="#funding-grants">Funding / Grants</a></li>
+							<li><a class="dropdown-item" href="#conferences">Conference Roles</a></li>
+							<li><a class="dropdown-item" href="#invited-talks">Invited Talks</a></li>
+						  </ul>
 						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#publications">Publications</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#teaching">Teaching</a>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-Teaching" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Teaching
+						  </a>
+						  <ul class="dropdown-menu" aria-labelledby="navbarDropdown-Teaching">
+							<li><a class="dropdown-item" href="#teaching">Teaching Overview</a></li>
+							<li><a class="dropdown-item" href="#supervisions">Supervisions</a></li>
+						  </ul>
 						</li>
 						<li class="nav-item">
 						  <a class="nav-link" href="#honours-and-awards">Honours and Awards</a>
@@ -261,8 +268,35 @@
 				</p>
 			</div>
 		  </div>
+
 		  <div class="row">
-			  <p></p>
+			  <div class="col">
+				<h3 id="funding-grants" class="sticky">Funding / Grants</h3>
+					<li><b>Cardiff University Research Culture Fund, Feb - July 2025</b>, <i>£920</i>, - Competitive funding awarded to promote interdisiplinary networking and collaboration for PGRs with Rhianedd Collins</li>
+				</ul>
+			  </div>
+		  </div>
+		  
+		  <div class="row">
+			  <div class="col">
+				<h3 id="conferences" class="sticky">Conferences</h3>
+				<ul>
+					<li><b>South West UK Pre-CHI</b> - <i>Programme Co-Chair, Publicity Co-Chair</i> - Bringing together HCI researchers from across Wales and South West England</li>
+				</ul>
+			  </div>
+		  </div>
+		  
+		  <div class="row">
+			  <div class="col">
+				<h3 id="invited-talks" class="sticky">Invited Talks</h3>
+				<ul>
+					<li><b>Cardiff University</b>, February 2025. Invited seminar and workshop on Accessibility in Augmented Reality.</li>
+					<li><b>UWE, Bristol</b>, April 2024. Invited talk on Design Considerations to Improve Visual Art Engagement for People with Low Vision</li>
+				</ul>
+			  </div>
+		  </div>
+
+		  <div class="row">
 			  <div class="col">
 				<h2 id="teaching" class="sticky">Teaching</h2>
 				<p>I deliver engaging and effective courses at Cardiff University's <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a> by designing and planning learning activities and programs, delivering engaging and supportive teaching, creating supportive learning environments, and continuously developing through professional growth and scholarly activities.</p>
@@ -274,15 +308,14 @@
 			<div class="col">
 				<h3 id="supervisions" class="sticky">Supervisions</h3>
 				<ul>
-					<li>Richard. MSc Dissertation entitled <i>Could AI do a NHS (Audiology) clinicians paperwork to help create a better patient experience</i>. Richard is now doing PhD at Southampton</li>
-					<li>Mariia. MSc Dissertation entitled <i>Low Vision Webpage Layout Modifier: A Web Extension for People with Visual Impairments</i>. Mariia is now a Project Manager at Oxford University</li>
-					<li>Louis. MSc Dissertation entitled <i>Application to Enhance Artwork in Real Time for Those with Low Vision</i> Louis was hired as a software developer and is currently travelling.</li>
+					<li>Richard. MSc Dissertation, 2023, entitled <i>Could AI do a NHS (Audiology) clinicians paperwork to help create a better patient experience</i>. Richard is now doing PhD at Southampton</li>
+					<li>Mariia. MSc Dissertation, 2023, entitled <i>Low Vision Webpage Layout Modifier: A Web Extension for People with Visual Impairments</i>. Mariia is now a Project Manager at Oxford University</li>
+					<li>Louis. MSc Dissertation, 2023, entitled <i>Application to Enhance Artwork in Real Time for Those with Low Vision</i> Louis was hired as a software developer and is currently travelling.</li>
 				</ul>
 			</div>
 		  </div>
-
+		  
 		  <div class="row">
-			  <p></p>
 			  <div class="col">
 				<h2 id="honours-and-awards" class="sticky">Honours and Awards</h2>
 				<ul>
