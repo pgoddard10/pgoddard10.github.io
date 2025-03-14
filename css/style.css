@@ -1,0 +1,83 @@
+  html {
+    font-size: 1.1rem;
+  }
+  a {
+	color: #02549D;
+  }
+  a:hover {
+	text-decoration: none;
+  }
+  h3 {
+    text-size: 0.9em;
+  }
+  h2, h3, h4 {
+    margin-top: 10px;
+  }
+  .icons {
+    font-size: 1.0rem;
+  }
+  .icons a {
+	color: #0275d8;
+  }
+  .sticky {
+    position: sticky;
+	top: 0;
+	background-color: #fff;
+  }
+  .btn {
+	background-color: #0275d8;
+	color: #fff;
+  }
+  .navbar-custom {
+    background-color: #02549D;
+  }
+  /* change the brand and text color */
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+	color: white;
+  }
+  /* change the link color */
+  .navbar-custom .navbar-nav .nav-link {
+	color: white;
+  }
+  /* change the color of active or hovered links */
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link {
+	color: white;
+	text-decoration: underline;
+  }
+  .navbar-toggler {
+	border-color: white;
+	border-width: 2px;
+  }
+  .navbar-toggler-icon {
+	color: white;
+  }
+  .profile-pic {
+	float: left;
+	margin: 0 20px 0 0;
+  }
+  .profile-pic-container img{
+	max-width: 225px;
+  }
+  #title h1, #title h2{
+	display: inline;
+  }
+  #title h2{
+	font-size: 1.2em;
+  }
+  .footer {
+	color: #000;
+  }
+  /* For width 768px and larger: */
+  @media only screen and (max-width: 768px) {
+	.publications img {
+		max-width: 70%;
+	}
+  }
+  /* For width 500px and larger: */
+  @media only screen and (max-width: 500px) {
+    .profile-pic {
+	  width: 35%;
+    }
+  }
