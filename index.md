@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Paul Goddard, BSc (Hons), FHEA
+title: Paul Goddard
+subtitle: BSc (Hons), FHEA
 ---
 
 I am a Lecturer in Computer Science at the <a href="https://uwe.ac.uk/" target="_blank">University West of England, Bristol</a>. I was previously a HCI PhD Student and Teaching Associate in the <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a> at <a href="https://www.cardiff.ac.uk/" target="_blank">Cardiff University</a>.
