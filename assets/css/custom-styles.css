@@ -1,0 +1,38 @@
+
+/* Override default fonts */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Heading sizes */
+h1 {
+  font-size: 2.5rem
+
+
+/* Top-level navbar links */
+#main-navbar .nav-link:hover,
+#main-navbar .nav-link:focus {
+  color: #fff; /* change to whatever colour you want */
+}
+
+/* Dropdown menu/combo boxes */
+#main-navbar .dropdown-menu .dropdown-item:hover,
+#main-navbar .dropdown-menu .dropdown-item:focus {
+  color: #fff; /* same or different colour if you prefer */
+}
+
+/* Videos */
+.video-container {
+  display: flex;
+  justify-content: centre;
+  align-items: centre;
+  overflow: hidden;
+}
+.video-container video {
+  width: 80vw;  /* vmin chooses the smaller of viewport width or height */
+  height: 60vh;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
