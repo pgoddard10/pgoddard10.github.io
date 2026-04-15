@@ -6,13 +6,17 @@ body {
 }
 
 /* Heading sizes */
-h1 {
-  font-size: 2.5rem;
+@media (min-width: 1200px) {
+    .intro-header .page-heading h1 {
+        font-size: 4rem;
+    }
 }
 
 /* Top-level navbar links */
 #main-navbar .nav-link:hover,
-#main-navbar .nav-link:focus {
+#main-navbar .nav-link:focus,
+.navbar-brand:hover,
+.navbar-brand:focus {
   color: #fff; /* change to whatever colour you want */
 }
 
