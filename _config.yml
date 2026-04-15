@@ -20,12 +20,12 @@ author: Paul Goddard
 ###############################################
 
 navbar-links:
+  About: "/"
   Research:
     - Overview: "research"
     - Participate: "research/participate"
     - Publications: "research/publications"
-  Teaching:
-    - Overview: "teaching"
+  Teaching: "teaching"
 
 ################
 # --- Logo --- #
@@ -141,14 +141,14 @@ navbar-var-length: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
+page-col: "#fff"
+text-col: "#000"
+link-col: "#02549D"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
+navbar-col: "#02549D"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
+footer-col: "#02549D"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
