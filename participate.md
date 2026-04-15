@@ -21,7 +21,7 @@ We’re inviting you to try our new headset that combines visual enhancements an
 Adults (18+) with low vision who have some usable sight and are comfortable wearing a headset.
 
 ### When & Where?
-Sessions are by appointment at Bristol Museum and Art Gallery. Each session takes up to three hours.
+Sessions are by appointment at Bristol Museum and Art Gallery. Each session takes approximately three hours.
 
 ### What Happens on the Day?
 We will meet you at the museum reception and take you to a private room for simple vision checks and a short introduction. You will then try the headset in the gallery while viewing two paintings. You will use voice, gesture, and controller methods to trigger visual enhancements and audio descriptions. Afterwards, you will complete a short questionnaire and interview about ease of use and comfort.

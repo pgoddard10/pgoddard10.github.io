@@ -16,68 +16,68 @@ This work is part of my PhD, which is supervised by <a href="https://profiles.ca
 Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/" target="_blank">University of the West of England</a> investigated how low-cost hardware could be used as an audio headset for people with low vision. Museum curators could write a description, and the software would automatically read these descriptions through the headset when triggered with a contactless tag. I also supported research into tactile and digital wayfinding for people with low vision. This research was in collaboration with <a href="https://people.uwe.ac.uk/Person/BenedictGaster" target="_blank">Dr Benedict Gaster</a>, <a href="https://people.uwe.ac.uk/Person/CarinnaParraman" target="_blank">Professor Carinna Parraman</a>, and <a href="https://people.uwe.ac.uk/Person/FabioDAgnano" target="_blank">Fabio D'Agnano</a>.
 
 
-	### Publications
-	
-	<a href="#2026">2026</a> | <a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a>
-	
-	#### 2026
-	
-	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/ar_headset_with_art.jpg' | relative_url }}" alt="Paul wearing the headset looking at a painting on the wall">
-	</div>
-	<div class="col-12 col-md-8 col-lg-9">
-		<p>
-			Paul Goddard. 2026. Smart glasses bring art into focus for people with low vision. <i>Visible</i> Winter/Spring 2026. Sight Support West of England. Available at: <a href="https://www.sightsupportwest.org.uk/services/visible-magazine/13-winter-2026/" target="_blank">https://www.sightsupportwest.org.uk/services/visible-magazine/13-winter-2026/</a><br />
-			<a href="https://www.sightsupportwest.org.uk/wp-content/uploads/2025/12/Visible-Magazine-13-Winter-Spring-2026.pdf" target="_blank">pdf</a>
-		</p>
-	</div>
-	
-	
-	#### 2024
-	
-	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/early_codes_on_table.png' | relative_url }}" alt="Lots of small strips of paper, with a coloured square sticky note above each group of strips.">
-	</div>
-	<div class="col-12 col-md-8 col-lg-9">
-		<p>
-			Paul Goddard, Nervo Verdezoto, Tom H. Margrain, Yu-Kun Lai, and Parisa Eslambolchilar. 2024. Seeing Art Differently: Design Considerations to Improve Visual Art Engagement for People with Low Vision. In <i>Designing Interactive Systems Conference (DIS ’24), July 1–5, 2024, IT University of Copenhagen, Denmark.</i> ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3643834.3660675<br/>
-			<a href="https://doi.org/10.1145/3643834.3660675" target="_blank">pdf</a> | <a href="summaries/seeing-art-differently-design-considerations.html">summary</a>
-		</p>
-	</div>
-	
-	
-	#### 2021
-	
-	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/urban_lighthouses.png' | relative_url }}" alt="A cartoon showing a person with low vision touching a street map, which has a highlighted route plan.">
-	</div>
-	<div class="col-12 col-md-8 col-lg-9">
-		<p>
-			D'Agnano, F., Parraman, C., Goddard, P., and Roberton, N. 2021. Urban Lighthouses and a Tactile City - Bristol. In: <i>AMPS Proceedings Series 26.2. Environments by Design: Health, Wellbeing and Place</i>. Northumbria, UK. pp. 110-121.<br />
-			<a href="https://amps-research.com/wp-content/uploads/2022/08/Amps-Proceedings-Series-26.2.pdf" target="_blank">pdf</a>
-		</p>
-	</div>
-	
-	
-	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/engaged_surface.jpg' | relative_url }}" alt="Close-up of a tactile print, showing buildings and a park.">
-	</div>
-	<div class="col-12 col-md-8 col-lg-9">
-		<p>
-			Parraman, C., Mandrille, C., D'Agnano, F., Roberton, N., and Goddard, P. 2021. The Engaged Surface - Prints for Visual Sensory Perception. In: <i>IMPACT 11</i>. Hong Kong<br />
-			<a href="https://www.impact11.hk/application/en/submission/submission-wywpqu30/" target="_blank">online</a>
-		</p>
-	</div>
-	
-	
-	#### 2020
-	
-	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/playshell.png' | relative_url }}" alt="Playshell in use outside. A hand holding a clear box is about to tap it onto a printed sign about badgers.">
-	</div>
-	<div class="col-12 col-md-8 col-lg-9">
-		<p>
-			Goddard, P. and Gaster, B.R. 2020. PlayShell: a low-cost, fun audio experience for heritage centres. In: <i>Proceedings of the 15th International Conference on Audio Mostly</i>. Graz Austria: ACM, pp. 237–240. DOI: <a href="https://dl.acm.org/doi/10.1145/3411109.3411132" target="_blank">10.1145/3411109.3411132</a><br />
-			<a href="https://uwe-repository.worktribe.com/preview/6778351/AM_2020_Playful_Audio%282%29.pdf" target="_blank">pdf</a> | <a href="https://player.vimeo.com/video/455441755?color=cc5a5a" target="_blank">video</a>
-		</p>
-	</div>
+## Publications
+
+<a href="#2026">2026</a> | <a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a>
+
+### 2026
+
+<div class="col-12 col-md-4 col-lg-3">
+	<img style="width: 100%;" src="{{ 'assets/img/ar_headset_with_art.jpg' | relative_url }}" alt="Paul wearing the headset looking at a painting on the wall">
+</div>
+<div class="col-12 col-md-8 col-lg-9">
+	<p>
+		Paul Goddard. 2026. Smart glasses bring art into focus for people with low vision. <i>Visible</i> Winter/Spring 2026. Sight Support West of England. Available at: <a href="https://www.sightsupportwest.org.uk/services/visible-magazine/13-winter-2026/" target="_blank">https://www.sightsupportwest.org.uk/services/visible-magazine/13-winter-2026/</a><br />
+		<a href="https://www.sightsupportwest.org.uk/wp-content/uploads/2025/12/Visible-Magazine-13-Winter-Spring-2026.pdf" target="_blank">pdf</a>
+	</p>
+</div>
+
+
+### 2024
+
+<div class="col-12 col-md-4 col-lg-3">
+	<img style="width: 100%;" src="{{ 'assets/img/early_codes_on_table.png' | relative_url }}" alt="Lots of small strips of paper, with a coloured square sticky note above each group of strips.">
+</div>
+<div class="col-12 col-md-8 col-lg-9">
+	<p>
+		Paul Goddard, Nervo Verdezoto, Tom H. Margrain, Yu-Kun Lai, and Parisa Eslambolchilar. 2024. Seeing Art Differently: Design Considerations to Improve Visual Art Engagement for People with Low Vision. In <i>Designing Interactive Systems Conference (DIS ’24), July 1–5, 2024, IT University of Copenhagen, Denmark.</i> ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3643834.3660675<br/>
+		<a href="https://doi.org/10.1145/3643834.3660675" target="_blank">pdf</a> | <a href="summaries/seeing-art-differently-design-considerations.html">summary</a>
+	</p>
+</div>
+
+
+### 2021
+
+<div class="col-12 col-md-4 col-lg-3">
+	<img style="width: 100%;" src="{{ 'assets/img/urban_lighthouses.png' | relative_url }}" alt="A cartoon showing a person with low vision touching a street map, which has a highlighted route plan.">
+</div>
+<div class="col-12 col-md-8 col-lg-9">
+	<p>
+		D'Agnano, F., Parraman, C., Goddard, P., and Roberton, N. 2021. Urban Lighthouses and a Tactile City - Bristol. In: <i>AMPS Proceedings Series 26.2. Environments by Design: Health, Wellbeing and Place</i>. Northumbria, UK. pp. 110-121.<br />
+		<a href="https://amps-research.com/wp-content/uploads/2022/08/Amps-Proceedings-Series-26.2.pdf" target="_blank">pdf</a>
+	</p>
+</div>
+
+
+<div class="col-12 col-md-4 col-lg-3">
+	<img style="width: 100%;" src="{{ 'assets/img/engaged_surface.jpg' | relative_url }}" alt="Close-up of a tactile print, showing buildings and a park.">
+</div>
+<div class="col-12 col-md-8 col-lg-9">
+	<p>
+		Parraman, C., Mandrille, C., D'Agnano, F., Roberton, N., and Goddard, P. 2021. The Engaged Surface - Prints for Visual Sensory Perception. In: <i>IMPACT 11</i>. Hong Kong<br />
+		<a href="https://www.impact11.hk/application/en/submission/submission-wywpqu30/" target="_blank">online</a>
+	</p>
+</div>
+
+
+### 2020
+
+<div class="col-12 col-md-4 col-lg-3">
+	<img style="width: 100%;" src="{{ 'assets/img/playshell.png' | relative_url }}" alt="Playshell in use outside. A hand holding a clear box is about to tap it onto a printed sign about badgers.">
+</div>
+<div class="col-12 col-md-8 col-lg-9">
+	<p>
+		Goddard, P. and Gaster, B.R. 2020. PlayShell: a low-cost, fun audio experience for heritage centres. In: <i>Proceedings of the 15th International Conference on Audio Mostly</i>. Graz Austria: ACM, pp. 237–240. DOI: <a href="https://dl.acm.org/doi/10.1145/3411109.3411132" target="_blank">10.1145/3411109.3411132</a><br />
+		<a href="https://uwe-repository.worktribe.com/preview/6778351/AM_2020_Playful_Audio%282%29.pdf" target="_blank">pdf</a> | <a href="https://player.vimeo.com/video/455441755?color=cc5a5a" target="_blank">video</a>
+	</p>
+</div>
