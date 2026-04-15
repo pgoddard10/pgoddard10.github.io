@@ -69,10 +69,7 @@ Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/"
 	</p>
 </div>
 
-<figure style="float:left; margin:0 1em 1em 0; max-width:200px;">
-  {{ 'assets/img/engaged_surface.jpg' | relative_url }}
-  <figcaption class="sr-only">Close-up of a tactile print, showing buildings and a park.</figcaption>
-</figure>
+<img style="float:left; margin:0 1em 1em 0; max-width:200px;" alt="Close-up of a tactile print, showing buildings and a park.">
 
 Parraman, C., Mandrille, C., D'Agnano, F., Roberton, N., and Goddard, P. 2021. The Engaged Surface - Prints for Visual Sensory Perception. In: <i>IMPACT 11</i>. Hong Kong<br />
 <a href="https://www.impact11.hk/application/en/submission/submission-wywpqu30/" target="_blank">online</a>
