@@ -16,10 +16,12 @@ This work is part of my PhD, which is supervised by <a href="https://profiles.ca
 Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/" target="_blank">University of the West of England</a> investigated how low-cost hardware could be used as an audio headset for people with low vision. Museum curators could write a description, and the software would automatically read these descriptions through the headset when triggered with a contactless tag. I also supported research into tactile and digital wayfinding for people with low vision. This research was in collaboration with <a href="https://people.uwe.ac.uk/Person/BenedictGaster" target="_blank">Dr Benedict Gaster</a>, <a href="https://people.uwe.ac.uk/Person/CarinnaParraman" target="_blank">Professor Carinna Parraman</a>, and <a href="https://people.uwe.ac.uk/Person/FabioDAgnano" target="_blank">Fabio D'Agnano</a>.
 
 
-  <div class="row publications">
-	<h3 id="publications" class="sticky">Publications</h3>
-	<nav><p><a href="#2026">2026</a> | <a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a></p></nav>
-	<h4 id="2026">2026</h4>
+	### Publications
+	
+	<a href="#2026">2026</a> | <a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a>
+	
+	#### 2026
+	
 	<div class="col-12 col-md-4 col-lg-3">
 		<img style="width: 100%;" src="{{ 'assets/img/ar_headset_with_art.jpg' | relative_url }}" alt="Paul wearing the headset looking at a painting on the wall">
 	</div>
@@ -29,11 +31,12 @@ Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/"
 			<a href="https://www.sightsupportwest.org.uk/wp-content/uploads/2025/12/Visible-Magazine-13-Winter-Spring-2026.pdf" target="_blank">pdf</a>
 		</p>
 	</div>
-	<p></p>		
 	
-	<h4 id="2024">2024</h4>
+	
+	#### 2024
+	
 	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/early_codes_on_table.jpg' | relative_url }}" alt="Lots of small strips of paper, with a coloured square sticky note above each group of strips.">
+		<img style="width: 100%;" src="{{ 'assets/img/early_codes_on_table.png' | relative_url }}" alt="Lots of small strips of paper, with a coloured square sticky note above each group of strips.">
 	</div>
 	<div class="col-12 col-md-8 col-lg-9">
 		<p>
@@ -41,11 +44,12 @@ Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/"
 			<a href="https://doi.org/10.1145/3643834.3660675" target="_blank">pdf</a> | <a href="summaries/seeing-art-differently-design-considerations.html">summary</a>
 		</p>
 	</div>
-	<p></p>		
 	
-	<h4 id="2021">2021</h4>
+	
+	#### 2021
+	
 	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/urban_lighthouses.jpg' | relative_url }}" alt="A cartoon showing a person with low vision touching a street map, which has a highlighted route plan.">
+		<img style="width: 100%;" src="{{ 'assets/img/urban_lighthouses.png' | relative_url }}" alt="A cartoon showing a person with low vision touching a street map, which has a highlighted route plan.">
 	</div>
 	<div class="col-12 col-md-8 col-lg-9">
 		<p>
@@ -53,7 +57,7 @@ Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/"
 			<a href="https://amps-research.com/wp-content/uploads/2022/08/Amps-Proceedings-Series-26.2.pdf" target="_blank">pdf</a>
 		</p>
 	</div>
-	<p></p>		
+	
 	
 	<div class="col-12 col-md-4 col-lg-3">
 		<img style="width: 100%;" src="{{ 'assets/img/engaged_surface.jpg' | relative_url }}" alt="Close-up of a tactile print, showing buildings and a park.">
@@ -64,10 +68,12 @@ Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/"
 			<a href="https://www.impact11.hk/application/en/submission/submission-wywpqu30/" target="_blank">online</a>
 		</p>
 	</div>
-	<p></p>
-	<h4 id="2020">2020</h4>
+	
+	
+	#### 2020
+	
 	<div class="col-12 col-md-4 col-lg-3">
-		<img style="width: 100%;" src="{{ 'assets/img/playshell.jpg' | relative_url }}" alt="Playshell in use outside. A hand holding a clear box is about to tap it onto a printed sign about badgers.">
+		<img style="width: 100%;" src="{{ 'assets/img/playshell.png' | relative_url }}" alt="Playshell in use outside. A hand holding a clear box is about to tap it onto a printed sign about badgers.">
 	</div>
 	<div class="col-12 col-md-8 col-lg-9">
 		<p>
@@ -75,4 +81,3 @@ Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/"
 			<a href="https://uwe-repository.worktribe.com/preview/6778351/AM_2020_Playful_Audio%282%29.pdf" target="_blank">pdf</a> | <a href="https://player.vimeo.com/video/455441755?color=cc5a5a" target="_blank">video</a>
 		</p>
 	</div>
-  </div>

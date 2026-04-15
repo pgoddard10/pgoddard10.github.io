@@ -24,7 +24,7 @@ navbar-links:
   Research:
     - Overview: "research"
     - Participate: "research/participate"
-    - Publications: "research/publications"
+    - Publications: "research#publications"
   Teaching: "teaching"
 
 ################
