@@ -12,18 +12,22 @@ body {
     }
 }
 
+/* Navbar brand link*/
+nav.navbar .navbar-brand:hover,
+nav.navbar .navbar-brand:focus {
+  color: #fff;
+}
+
 /* Top-level navbar links */
 #main-navbar .nav-link:hover,
-#main-navbar .nav-link:focus,
-.navbar-brand:hover,
-.navbar-brand:focus {
-  color: #fff; /* change to whatever colour you want */
+#main-navbar .nav-link:focus {
+  color: #fff;
 }
 
 /* Dropdown menu/combo boxes */
 #main-navbar .dropdown-menu .dropdown-item:hover,
 #main-navbar .dropdown-menu .dropdown-item:focus {
-  color: #fff; /* same or different colour if you prefer */
+  color: #fff;
 }
 
 /* Videos */
