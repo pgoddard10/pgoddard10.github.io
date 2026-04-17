@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 ---
-I currently teach Software Engineering and Information Science in the <a href="https://www.uwe.ac.uk/about/colleges-and-schools/arts-technology-and-environment/computing-creative-technologies" target="_blank">School of Computing and Creative Technologies</a> at <a href="https://www.uwe.ac.uk" target="_blank">UWE, Bristol</a>.
+I currently teach Software Engineering and Information Science in the <a href="https://www.uwe.ac.uk/about/colleges-and-schools/arts-technology-and-environment/computing-creative-technologies" target="_blank">School of Computing and Creative Technologies (SCCT)</a> at <a href="https://www.uwe.ac.uk" target="_blank">University West of England (UWE), Bristol</a>.
 
 I previously taught Computer Science and Software Engineering at both undergraduate and postgraduate level in Cardiff University's <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a>. As the inaugural Lead Teaching Associate (Jan 2022 – July 2024), I represented our team at the School Board and School Education and Student Experience Committee. I collaborated with School management, our Professional Services team, and TAs on teaching support organisation, internal teaching development, and fostering a culture of collaboration and inclusivity.
 
