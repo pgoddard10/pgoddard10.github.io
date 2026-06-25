@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Seeing Art Differently - Design Considerations to Improve Visual Art Engagement for People with Low Vision
+title: Seeing Art Differently
+subtitle: Design Considerations to Improve Visual Art Engagement for People with Low Vision
 ---
 
 Visual art can be an elusive experience for individuals with low vision, with many existing accessibility strategies focused primarily on non-visual aids. This study explored the potential of image enhancements via Head Mounted Displays (HMDs) to improve visual accessibility in art settings.
