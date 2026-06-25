@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Seeing Art Differently: Design Considerations to Improve Visual Art Engagement for People with Low Vision
+title: Seeing Art Differently - Design Considerations to Improve Visual Art Engagement for People with Low Vision
 ---
-	
-Visual Displays (HMDs) to improve visual accessibility in art settings.
 
-The researchers conducted online focus groups with 18 participants who have various visual impairments. They discussed the challenges these individuals face and the potential benefits of using Head Mounted Displays (HMDs) to improve their visual experience.
+Visual art can be an elusive experience for individuals with low vision, with many existing accessibility strategies focused primarily on non-visual aids. This study explored the potential of image enhancements via Head Mounted Displays (HMDs) to improve visual accessibility in art settings.
+
+To help understand the visual problems faced when viewing visual art, we conducted online focus groups with 18 participants who have various visual impairments. We discussed the challenges they face and the potential benefits of using Head-Mounted Displays (HMDs) to improve their visual experience.				
+	
 
 ### Main Findings
+Through our focus groups, we dicovered the following main findings:
 
 1. The need for Bigger, Bolder, and Brighter: Participants often struggle with seeing fine details in art due to issues with size, distance, colour, contrast, and lighting. They need to get close to the artwork to see details, but also need to step back to see the whole picture. Low contrast and poor lighting further complicate their viewing experience.
 
@@ -18,8 +20,7 @@ The researchers conducted online focus groups with 18 participants who have vari
 4. Perceived value of the potential use of HMD technology to enhance visual art: Participants believe that HMDs could help by magnifying images, enhancing colours and contrast, and providing audio descriptions. However, they also have concerns about the comfort and usability of these devices.
 
 ### Discussion
-
-The study contributes to the limited research on visual accessibility in museums and galleries, especially for people with visual impairments. The researchers compare their findings with existing literature and propose design considerations for future work.
+The study contributes to the limited research on visual accessibility in museums and galleries, especially for people with visual impairments. We compare their findings with existing literature and propose design considerations for future work.
 
 1. Beyond enlarging art or text descriptions: Participants favoured enlarging art or text descriptions but faced restrictions on getting close to the artwork. Even when allowed proximity, they needed to step back for a holistic view, which introduced navigation challenges. Museums need to consider alternate accessibility strategies, as magnifiers might not help if the art is unreachable and lighting issues persist.
 
@@ -33,7 +34,7 @@ The study highlights the need for better visual accessibility in museums and gal
 
 ### Future Work/Steps
 
-The researchers suggest several design considerations for future work:
+We suggest several design considerations for future work:
 
 - Magnification: Devices should allow users to magnify art without needing to get close.
 - Colour and contrast: Enhancements should improve the visibility of details and textures.
@@ -43,7 +44,7 @@ The researchers suggest several design considerations for future work:
 - Universal design: Accessibility tools should be available to all visitors to avoid highlighting disabilities.
 - Comfort: HMDs should be physically comfortable and not cause disorientation.
 
-The researchers plan to conduct follow up studies in person to further explore these ideas and test image enhancements on HMDs with people who have low vision.
+We plan to conduct follow up studies in person to further explore these ideas and test image enhancements on HMDs with people who have low vision.
 
 ### Full reference
 
@@ -52,4 +53,3 @@ Paul Goddard, Nervo Verdezoto, Tom H. Margrain, Yu Kun Lai, and Parisa Eslambolc
 [PDF](https://doi.org/10.1145/3643834.3660675)
 
 Find out more about this research, including related publications, via the [home page](/).
-		  
