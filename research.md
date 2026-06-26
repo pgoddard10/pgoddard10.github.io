@@ -13,7 +13,7 @@ To address this, I developed ARtSee: an augmented reality system that provides h
 
 ![Person wearing an augmented reality headset while looking at a painting in a gallery.](/assets/img/ar_headset_with_art.jpg)
 
-I have evaluated ARtSee in collaboration with Bristol Museum and Art Gallery. Early findings indicate that these enhancements can help people perceive more detail and engage more fully with artworks.
+People with low vision have evaluated ARtSee at Bristol Museum and Art Gallery. Early findings indicate that these enhancements can help people perceive more detail and engage more fully with artworks.
 
 This work contributes to more inclusive museum experiences and provides practical insights for the design of accessible augmented reality systems.
 
