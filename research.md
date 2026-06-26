@@ -37,7 +37,7 @@ ARtSee is an augmented reality system that provides hands-free, real-time visual
 
 The system allows users to customise these features according to their preferences and visual needs.
 
-![Person wearing an augmented reality headset while looking at a painting in a gallery.](path-to-image.jpg)
+![Person wearing an augmented reality headset while looking at a painting in a gallery.](/assets/img/ar_headset_with_art.jpg)
 
 ## Evaluation in Museums
 
