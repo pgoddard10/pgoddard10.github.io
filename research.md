@@ -5,14 +5,6 @@ title: Research
 
 ## Overview
 
-Museums and art galleries provide opportunities for learning, social interaction, and cultural engagement. However, these spaces can present barriers for people with low vision.
-
-Common approaches such as audio descriptions and tactile experiences are valuable. However, they do not fully address the visual challenges involved in engaging with artworks.
-
-My research explores how people with low vision can use their remaining sight more effectively, supported by accessible technology.
-
-## Overview
-
 Museums and art galleries offer opportunities for learning, social interaction, and cultural engagement. However, these spaces can present barriers for people with low vision, particularly when perceiving fine detail, colour, contrast, scale, and lighting.
 
 My research explores how people with low vision can use their remaining sight more effectively when engaging with visual media such as art. Through focus groups, I identified key visual challenges and a strong preference for approaches that support visual engagement rather than replacing it with non-visual alternatives.
