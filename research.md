@@ -11,51 +11,19 @@ Common approaches such as audio descriptions and tactile experiences are valuabl
 
 My research explores how people with low vision can use their remaining sight more effectively, supported by accessible technology.
 
-## Understanding Visual Experience
+## Overview
 
-I conducted three focus groups with people with low vision to understand their experiences in museums.
+Museums and art galleries offer opportunities for learning, social interaction, and cultural engagement. However, these spaces can present barriers for people with low vision, particularly when perceiving fine detail, colour, contrast, scale, and lighting.
 
-This work identified key challenges in perceiving:
-- fine detail  
-- colour and contrast  
-- scale and distance  
-- lighting conditions  
+My research explores how people with low vision can use their remaining sight more effectively when engaging with visual media such as art. Through focus groups, I identified key visual challenges and a strong preference for approaches that support visual engagement rather than replacing it with non-visual alternatives.
 
-Participants described how they build mental images from partial visual information, and expressed a strong preference for approaches that support visual engagement rather than replacing it.
-
-More details are available in our [DIS 2024 publication](https://doi.org/10.1145/3643834.3660675) and [project summary](/research/summary_seeing-art-differently-design-considerations).
-
-## ARtSee: Augmented Reality for Accessible Art
-
-To address these challenges, I developed ARtSee.
-
-ARtSee is an augmented reality system that provides hands-free, real-time visual enhancements. These include:
-- magnification  
-- contrast enhancement  
-- colour adjustment  
-- edge highlighting  
-
-The system allows users to customise these features according to their preferences and visual needs.
+To address this, I developed ARtSee: an augmented reality system that provides hands-free, real-time visual enhancements, including magnification, contrast adjustment, colour modification, and edge highlighting. The system is designed to be flexible and user-controlled, supporting a range of visual needs.
 
 ![Person wearing an augmented reality headset while looking at a painting in a gallery.](/assets/img/ar_headset_with_art.jpg)
 
-## Evaluation in Museums
+I have evaluated ARtSee in collaboration with Bristol Museum and Art Gallery. Early findings indicate that these enhancements can help people perceive more detail and engage more fully with artworks.
 
-I evaluated two iterations of ARtSee at Bristol Museum and Art Gallery with people with low vision.
-
-Early findings indicate that:
-- participants could perceive more detail and colour  
-- visual enhancements supported engagement with artworks  
-- participants expressed interest in using the system again  
-
-Further analysis is ongoing as part of my PhD.
-
-## Research Impact
-
-This work contributes to:
-- more inclusive museum and gallery experiences  
-- practical tools for accessibility in cultural institutions  
-- design knowledge for accessible augmented reality systems  
+This work contributes to more inclusive museum experiences and provides practical insights for the design of accessible augmented reality systems.
 
 ## Previous Research
 
