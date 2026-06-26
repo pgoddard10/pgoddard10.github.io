@@ -2,13 +2,56 @@
 layout: page
 title: Teaching
 ---
-I currently teach Software Engineering and Information Science in the <a href="https://www.uwe.ac.uk/about/colleges-and-schools/arts-technology-and-environment/computing-creative-technologies" target="_blank">School of Computing and Creative Technologies (SCCT)</a> at <a href="https://www.uwe.ac.uk" target="_blank">University West of England (UWE), Bristol</a>.
 
-I previously taught Computer Science and Software Engineering at both undergraduate and postgraduate level in Cardiff University's <a href="https://www.cardiff.ac.uk/computer-science" target="_blank">School of Computer Science and Informatics</a>. As the inaugural Lead Teaching Associate (Jan 2022 – July 2024), I represented our team at the School Board and School Education and Student Experience Committee. I collaborated with School management, our Professional Services team, and TAs on teaching support organisation, internal teaching development, and fostering a culture of collaboration and inclusivity.
+## Overview
 
-Holding <a href="https://www.advance-he.ac.uk/fellowship/fellowship" target="_blank">Fellow (FHEA)</a> status, I provide high-quality education and support. Collaboration with colleagues and engaging in reflective practice is pivotal in this journey. We create a vibrant educational community that thrives on shared knowledge and innovative practices.
-				
-## Supervisions
-- Richard. MSc Dissertation, 2023, entitled *Could AI do a NHS (Audiology) clinicians paperwork to help create a better patient experience*. Richard is now doing PhD at Southampton
-- Mariia. MSc Dissertation, 2023, entitled *Low Vision Webpage Layout Modifier: A Web Extension for People with Visual Impairments*. Mariia is now a Project Manager at Oxford University
-- Louis. MSc Dissertation, 2023, entitled *Application to Enhance Artwork in Real Time for Those with Low Vision* Louis was hired as a software developer and is currently travelling.
+I teach Software Engineering and Information Science at the School of Computing and Creative Technologies (SCCT), University of the West of England (UWE), Bristol.
+
+My teaching is informed by a decade of industry experience and focuses on developing practical, inclusive, and transferable skills.
+
+## Teaching Approach
+
+My teaching emphasises:
+- applied software engineering practice  
+- accessibility and inclusive design  
+- collaborative and reflective learning  
+
+I aim to support students in developing both technical expertise and an awareness of real-world impact.
+
+## Previous Roles
+
+I previously taught Computer Science and Software Engineering at Cardiff University, at both undergraduate and postgraduate level.
+
+From January 2022 to July 2024, I served as the inaugural Lead Teaching Associate.
+
+In this role, I:
+- represented the teaching team at School Board and education committees  
+- worked with academic and professional services staff  
+- supported teaching development and organisation  
+- promoted collaboration and inclusive teaching practices  
+
+I hold Fellowship of AdvanceHE (FHEA).
+
+## Supervision
+
+### MSc Dissertations (2023)
+
+- Richard  
+  *AI support for NHS audiology paperwork*  
+  Now PhD student at the University of Southampton  
+
+- Mariia  
+  *Web extension for low vision accessibility*  
+  Now Project Manager at the University of Oxford  
+
+- Louis  
+  *Real-time artwork enhancement for people with low vision*  
+  Now working as a software developer  
+
+## Collaboration
+
+I am interested in:
+- supervising projects related to accessibility and interactive systems  
+- collaborating with industry on applied teaching and student projects  
+
+Please get in touch to discuss opportunities.

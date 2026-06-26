@@ -3,23 +3,76 @@ layout: page
 title: Research
 ---
 
-Museums and art galleries are important spaces that offer us learning opportunities, social interaction, and a chance to explore beyond the confines of home. For people with visual impairments, most of whom have some useful sight (low vision), these spaces can be challenging. Common ways to help people with visual impairments engage with art include audio/verbal descriptions and occasionally options to touch a replica or original artwork. Whilst these non-visual strategies are helpful, we wanted to understand more about the visual challenges in museums. As such, we ran three focus groups with people with visual impairments, which highlighted difficulties in perceiving fine details caused by issues with size, distance, colour, contrast, and lighting. While non-visual interpretations, like audio descriptions, provide context and visual clues, people with low vision still build mental images of the art they cannot fully see and desire to use their residual vision. More information about these focus groups can be found in our <a href="https://doi.org/10.1145/3643834.3660675" target="_blank">publication</a> or on the <a href="/research/summary_seeing-art-differently-design-considerations">summary page</a>.
+## Overview
 
-To address the problems above, we developed ARtSee: An Augmented Reality (AR) headset that offers hands-free, real-time visual enhancements. ARtSee allows users to customise enhancements in contrast, colour, magnification, and shape outlining, tailored to their needs.
+Museums and art galleries provide opportunities for learning, social interaction, and cultural engagement. However, these spaces can present barriers for people with low vision.
 
-<img src="{{ 'assets/img/ar_headset_with_art.jpg' | relative_url }}" alt="Someone with short hair wearing an Augmented Reality headset and looking at a framed painting on the wall. The painting depicts several people outside, some are crouched over and not all faces can be seen. There is one person stood up holding a baby." />
+Common approaches such as audio descriptions and tactile experiences are valuable. However, they do not fully address the visual challenges involved in engaging with artworks.
 
-We have tested two iterations of ARtSee at the Bristol Museum and Art Gallery gathering feedback from people with visual impairments to refine and improve the software further. There is a lot of data still to analyse, but early indications are promising, with participants stating that the visualisations are helpful to see more detail and colours than without the visualisations, and that they would want to use them again.
+My research explores how people with low vision can use their remaining sight more effectively, supported by accessible technology.
 
-The work I describe above summises my PhD, which is now concluding. The results of this body of work will help inform my future research directions but please get in touch (<a href="mailto:paul3.goddard@uwe.ac.uk" target="_blank">paul3.goddard@uwe.ac.uk</a>) if you have any relevant thoughts or may consider working together in some capacity.
+## Understanding Visual Experience
 
-All that's left for the PhD now is to write it all up in a logical order, and so I am still supervised by <a href="https://profiles.cardiff.ac.uk/staff/verdezotodiasn" target="_blank">Dr Nervo Verdezoto Dias</a>, <a href="https://profiles.cardiff.ac.uk/staff/laiy4" target="_blank">Professor Yukun Lai</a> and <a href="https://profiles.cardiff.ac.uk/emeritus/margrainth" target="_blank">Professor Tom Margrain</a> until submission.
+I conducted three focus groups with people with low vision to understand their experiences in museums.
 
+This work identified key challenges in perceiving:
+- fine detail  
+- colour and contrast  
+- scale and distance  
+- lighting conditions  
 
-Prior to my current work, above, my research at <a href="https://www.uwe.ac.uk/" target="_blank">University of the West of England (UWE)</a> investigated how low-cost hardware could be used as an audio headset for people with low vision. Museum curators could write a description, and the software would automatically read these descriptions through the headset when triggered with a contactless tag. I also supported research into tactile and digital wayfinding for people with low vision. This research was in collaboration with <a href="https://people.uwe.ac.uk/Person/BenedictGaster" target="_blank">Dr Benedict Gaster</a>, <a href="https://people.uwe.ac.uk/Person/CarinnaParraman" target="_blank">Professor Carinna Parraman</a>, and <a href="https://people.uwe.ac.uk/Person/FabioDAgnano" target="_blank">Fabio D'Agnano</a>.
+Participants described how they build mental images from partial visual information, and expressed a strong preference for approaches that support visual engagement rather than replacing it.
 
+More details are available in our [DIS 2024 publication](https://doi.org/10.1145/3643834.3660675) and [project summary](/research/summary_seeing-art-differently-design-considerations).
 
-## Publications
+## ARtSee: Augmented Reality for Accessible Art
+
+To address these challenges, I developed ARtSee.
+
+ARtSee is an augmented reality system that provides hands-free, real-time visual enhancements. These include:
+- magnification  
+- contrast enhancement  
+- colour adjustment  
+- edge highlighting  
+
+The system allows users to customise these features according to their preferences and visual needs.
+
+![Person wearing an augmented reality headset while looking at a painting in a gallery.](path-to-image.jpg)
+
+## Evaluation in Museums
+
+I evaluated two iterations of ARtSee at Bristol Museum and Art Gallery with people with low vision.
+
+Early findings indicate that:
+- participants could perceive more detail and colour  
+- visual enhancements supported engagement with artworks  
+- participants expressed interest in using the system again  
+
+Further analysis is ongoing as part of my PhD.
+
+## Research Impact
+
+This work contributes to:
+- more inclusive museum and gallery experiences  
+- practical tools for accessibility in cultural institutions  
+- design knowledge for accessible augmented reality systems  
+
+## Previous Research
+
+Prior to ARtSee, I investigated low-cost audio headset systems for cultural spaces. These systems allowed curators to create descriptions that are automatically triggered through contactless interaction. I also contributed to research on tactile and digital wayfinding systems for people with low vision.
+
+This work was conducted in collaboration with:
+- [Dr Benedict Gaster](https://people.uwe.ac.uk/Person/BenedictGaster)  
+- [Professor Carinna Parraman](https://people.uwe.ac.uk/Person/CarinnaParraman)  
+- [Fabio D'Agnano](https://people.uwe.ac.uk/Person/FabioDAgnano)  
+
+## Collaboration
+
+I welcome collaboration with researchers, museums, and industry partners working on accessibility, AR, and cultural technology.
+
+Contact: [paul3.goddard@uwe.ac.uk](mailto:paul3.goddard@uwe.ac.uk)
+
+## Selected Publications
 
 <a href="#2026">2026</a> | <a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a>
 
