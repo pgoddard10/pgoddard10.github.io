@@ -21,10 +21,7 @@ This work contributes to more inclusive museum experiences and provides practica
 
 Prior to ARtSee, I investigated low-cost audio headset systems for cultural spaces. These systems allowed curators to create descriptions that are automatically triggered through contactless interaction. I also contributed to research on tactile and digital wayfinding systems for people with low vision.
 
-This work was conducted in collaboration with:
-- [Dr Benedict Gaster](https://people.uwe.ac.uk/Person/BenedictGaster)  
-- [Professor Carinna Parraman](https://people.uwe.ac.uk/Person/CarinnaParraman)  
-- [Fabio D'Agnano](https://people.uwe.ac.uk/Person/FabioDAgnano)  
+This work was conducted in collaboration with [Dr Benedict Gaster](https://people.uwe.ac.uk/Person/BenedictGaster), [Professor Carinna Parraman](https://people.uwe.ac.uk/Person/CarinnaParraman), and [Fabio D'Agnano](https://people.uwe.ac.uk/Person/FabioDAgnano).
 
 ## Collaboration
 

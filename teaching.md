@@ -7,26 +7,13 @@ title: Teaching
 
 I teach Software Engineering and Information Science at the School of Computing and Creative Technologies (SCCT), University of the West of England (UWE), Bristol.
 
-My teaching is informed by a decade of industry experience and focuses on developing practical, inclusive, and transferable skills.
-
-## Teaching Approach
-
-My teaching emphasises:
-- applied software engineering practice  
-- accessibility and inclusive design  
-- collaborative and reflective learning  
-
-I aim to support students in developing both technical expertise and an awareness of real-world impact.
+My teaching is informed by a decade of industry experience and focuses on developing practical, inclusive, and transferable skills. My teaching emphasises applied software engineering practice, accessibility and inclusive design, and collaborative and reflective learning. I aim to support students in developing both technical expertise and an awareness of real-world impact.
 
 ## Previous Roles
 
 I previously taught Computer Science and Software Engineering at Cardiff University, at both undergraduate and postgraduate level.
 
-From January 2022 to July 2024, I served as the inaugural Lead Teaching Associate. In this role, I:
-- represented the teaching team at School Board and education committees  
-- worked with academic and professional services staff  
-- supported teaching development and organisation  
-- promoted collaboration and inclusive teaching practices  
+During this time, I served as the inaugural Lead Teaching Associate where I represented the teaching team at School Board and education committees, worked with academic and professional services staff, supported teaching development and organisation, and promoted collaboration and inclusive teaching practices.
 
 I hold Fellowship of AdvanceHE (FHEA).
 

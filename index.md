@@ -9,11 +9,11 @@ show-avatar: false
 
 <img style="float:left; margin:0 1em 1em 0; max-width:200px;" src="{{ 'assets/img/paul_goddard.jpg' | relative_url }}" alt="Head-and-shoulders photo of Paul Goddard smiling, wearing a burgundy jumper with a blurred background.">
 
-I am a Lecturer in Software Engineering at the [School of Computing and Creative Technologies](https://www.uwe.ac.uk/about/colleges-and-schools/arts-technology-and-environment/computing-creative-technologies), University of the West of England (UWE), Bristol.
-
-I am a Fellow of AdvanceHE (FHEA), and my teaching emphasises inclusive design, applied software engineering, and collaborative learning.
+I am a Lecturer (Teaching and Research) in the [School of Computing and Creative Technologies](https://www.uwe.ac.uk/about/colleges-and-schools/arts-technology-and-environment/computing-creative-technologies), University of the West of England (UWE), Bristol.
 
 My research focuses on accessible interactive systems, exploring how people with low vision engage with visual media such as art, and how technologies such as augmented reality can support this in real-world settings.
+
+I am a Fellow of AdvanceHE (FHEA), and my teaching emphasises inclusive design, applied software engineering, and collaborative learning.
 
 ## Background
 
