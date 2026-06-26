@@ -22,9 +22,7 @@ I aim to support students in developing both technical expertise and an awarenes
 
 I previously taught Computer Science and Software Engineering at Cardiff University, at both undergraduate and postgraduate level.
 
-From January 2022 to July 2024, I served as the inaugural Lead Teaching Associate.
-
-In this role, I:
+From January 2022 to July 2024, I served as the inaugural Lead Teaching Associate. In this role, I:
 - represented the teaching team at School Board and education committees  
 - worked with academic and professional services staff  
 - supported teaching development and organisation  
