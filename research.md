@@ -54,7 +54,7 @@ Paul Goddard. 2026. Smart glasses bring art into focus for people with low visio
 
 <img style="float:left; margin:0 1em 1em 0; max-width:200px;" src="{{ 'assets/img/early_codes_on_table.png' | relative_url }}" alt="Lots of small strips of paper, with a coloured square sticky note above each group of strips.">
 Paul Goddard, Nervo Verdezoto, Tom H. Margrain, Yu-Kun Lai, and Parisa Eslambolchilar. 2024. Seeing Art Differently: Design Considerations to Improve Visual Art Engagement for People with Low Vision. In <i>Designing Interactive Systems Conference (DIS ’24), July 1–5, 2024, IT University of Copenhagen, Denmark.</i> ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3643834.3660675<br/>
-<a href="https://doi.org/10.1145/3643834.3660675" target="_blank">pdf</a> | <a href="/research/summary_seeing-art-differently-design-considerations.html">summary</a>
+<a href="https://doi.org/10.1145/3643834.3660675" target="_blank">pdf</a> | <a href="/research/summary_seeing-art-differently-design-considerations">summary</a>
 
 ### 2021
 
