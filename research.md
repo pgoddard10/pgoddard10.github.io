@@ -32,7 +32,7 @@ I welcome collaboration with researchers, museums, and industry partners working
 
 Contact: [paul3.goddard@uwe.ac.uk](mailto:paul3.goddard@uwe.ac.uk)
 
-## Selected Publications
+## Publications
 
 <a href="#2026">2026</a> | <a href="#2024">2024</a> | <a href="#2021">2021</a> | <a href="#2020">2020</a>
 
