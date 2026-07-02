@@ -7,7 +7,7 @@ title: Teaching
 
 I teach Software Engineering and Information Science at the School of Computing and Creative Technologies (SCCT), University of the West of England (UWE), Bristol.
 
-My teaching is informed by a decade of industry experience and focuses on developing practical, inclusive, and transferable skills. My teaching emphasises applied software engineering practice, accessibility and inclusive design, and collaborative and reflective learning. I aim to support students in developing both technical expertise and an awareness of real-world impact.
+My teaching is informed by a decade of industry experience and focuses on developing practical, inclusive, and transferable skills. My teaching emphasises applied software engineering practice, collaborative and reflective learning. I aim to support students in developing both technical expertise and an awareness of real-world impact.
 
 ## Previous Roles
 

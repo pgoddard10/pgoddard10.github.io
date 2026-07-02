@@ -9,7 +9,7 @@ Museums and art galleries offer opportunities for learning, social interaction, 
 
 My research explores how people with low vision can use their remaining sight more effectively when engaging with visual media such as art. Through focus groups, I identified key visual challenges and a strong preference for approaches that support visual engagement rather than replacing it with non-visual alternatives.
 
-To address this, I developed ARtSee: an augmented reality system that provides hands-free, real-time visual enhancements, including magnification, contrast adjustment, colour modification, and edge highlighting. The system is designed to be flexible and user-controlled, supporting a range of visual needs.
+To address this, I developed ARtSee: an augmented reality system that provides, real-time visual enhancements, including magnification, contrast adjustment, colour modification, and edge highlighting. The system is designed to be flexible and user-controlled, supporting a range of visual needs.
 
 ![Person wearing an augmented reality headset while looking at a painting in a gallery.](/assets/img/ar_headset_with_art.jpg)
 
